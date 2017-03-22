@@ -1,0 +1,12 @@
+name: SuperBan
+version: 1.0
+main: RTG\SuperBan\Loader
+api:
+    - 3.0.0-ALPHA4
+author: IG
+commands:
+    sp:
+        permissions: superban.command
+permissions:
+    superban.command:
+        default: op
